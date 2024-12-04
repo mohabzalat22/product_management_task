@@ -28,6 +28,6 @@ class RegisterController extends Controller
 
         // redirect to dashboard
 
-        return redirect()->route('dasboard')->with('success','User Created Successfully');
+        return redirect()->route('dashboard')->with('success','User Created Successfully');
     }
 }
