@@ -30,12 +30,13 @@ trait ApiResponseTrait {
      * @return Array ['success'=>false,'message','data'] with status_code
      * 
      */
-    protected function errorResponse($message='', $data = [], $status_code=400){
+    protected function errorResponse($message='', $data = [], $status_code=400, $errors = []){
         return response()->json(
             [
                 'success' => false,
                 'message' => $message,
                 'data' => $data,
+                'errors' => $errors
             ],
             $status_code
         );
