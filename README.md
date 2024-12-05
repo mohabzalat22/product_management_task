@@ -32,6 +32,29 @@ Clone the repository to your local machine:
 git clone https://github.com/mohabzalat22/product_management_task.git
 ```
 
+### Step 2: Using vite
+
+Use node.js to run vite:
+
+```bash
+npm i
+```
+
+### Step 3: Making migrations
+
+Making migrations
+
+```bash
+php artisan migrate
+```
+
+### Step 4: Serving the project
+
+Serving the project
+
+```bash
+php artisan serve
+```
 
 # Product API Documentation
 
